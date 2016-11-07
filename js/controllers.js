@@ -710,9 +710,9 @@ nbaLineupApp.controller('teamController', function ($scope, $rootScope, nbaAPI, 
     $scope.searchTeams = $scope.teams;
     $scope.teamOne = {};
     $scope.teamTwo = {};
-    $scope.selectedSeason = "2015-16";
+    $scope.selectedSeason = "2016-17";
     $scope.selectedSeasonType = "Regular Season";
-    $scope.seasons = ["2014-15", "2015-16"];
+    $scope.seasons = ["2014-15", "2015-16", "2016-17"];
     $scope.seasonTypes = ["Regular Season", "Playoffs"];
     $scope.parseSharedUrl();
 
